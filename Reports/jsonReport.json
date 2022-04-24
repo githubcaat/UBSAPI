@@ -1,0 +1,90 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-23T20:41:50.566Z",
+        "line": 22,
+        "name": "Return all the Roles",
+        "description": "",
+        "id": ";return-all-the-roles",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User sends a GET request \"endpoint(fake)\" for roles",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User takes a response for role",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User asserts Status Code that is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 33
+                }
+              ],
+              "location": "com.ubs.stepdefinitions.ListingEmployeesTest.user_asserts_status_code_that_is(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User validates all of role\u0027s list",
+            "match": {
+              "location": "com.ubs.stepdefinitions.RolesTest.user_validates_all_of_role_s_list()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abc"
+          },
+          {
+            "name": "@roles"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ubs.features.feature",
+    "tags": [
+      {
+        "name": "@abc",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
